@@ -15,7 +15,7 @@ Features:
   -Article Resemblance Check
 
 Corpus List:
-  Stop Words list: http://www.ranks.nl/stopwords
-  British National Corpus: http://www.natcorp.ox.ac.uk/
-  American National Corpus: http://www.anc.org/
+  Stop Words list: http://www.ranks.nl/stopwords 
+  British National Corpus: http://www.natcorp.ox.ac.uk/ 
+  American National Corpus: http://www.anc.org/ 
   Leipzig Corpora Collection: http://corpora.informatik.uni-leipzig.de/download.html
