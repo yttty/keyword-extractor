@@ -2,6 +2,7 @@
 Extract keywords form given text, using the method of statistics, previoudly trained using corpus from University of Oxford Text Archive.
 
 Features:
+
   -TF-IDF & cosine resemblance
 
   -Keyword Extraction
@@ -9,6 +10,7 @@ Features:
   -Article Resemblance Check
 
 Corpus List:
+
   Stop Words list: http://www.ranks.nl/stopwords
  
   British National Corpus: http://www.natcorp.ox.ac.uk/ 
