@@ -23,9 +23,5 @@ void UserMannual::print_welcome_info() {
 }
 
 void UserMannual::print_help() {
-# ifdef WIN32
-  system("type \\data\\help.md");
-# else
-  system("cat ./data/help.md");
-# endif
+  system("cat ./README.md");
 }
