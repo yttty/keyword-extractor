@@ -3,7 +3,9 @@ Extract keywords form given text, using the method of statistics, previoudly tra
 
 Features:
   -TF-IDF & cosine resemblance
+
   -Keyword Extraction
+
   -Article Resemblance Check
 
 Corpus List:
