@@ -1,6 +1,6 @@
 /*
  * File name: train.cc
- * Author: Yang Tianyi, SYSU
+ * Author: Terrill Yang, SYSU
  * Function: the implemention of function Train
  * Last edit: 2015-5-29
  *
