@@ -1,6 +1,6 @@
 /*
  * File name: user_mannual.cc
- * Author: Yang Tianyi, SYSU
+ * Author: Terrill Yang, SYSU
  * Function: print user mannual when nedded
  * Last edit: 2015-5-29
  *
