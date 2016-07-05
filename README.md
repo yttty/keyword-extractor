@@ -1,5 +1,5 @@
 # KeywordExtractor
-Extract keywords form given text, using the method of statistics, previoudly trained using corpus from University of Oxford Text Archive.
+Extract keywords form given text, using the method of statistics, previously trained with corpus from University of Oxford Text Archive.
 
 #### Features
   -TF-IDF & cosine resemblance
