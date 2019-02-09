@@ -38,7 +38,7 @@ int main(int argc, char const *argv[])
     if (argc < 3) {
       throw runtime_error("Too few argument!");
     }
-    
+
     if ((strcmp(argv[1], "-train") == 0) || (strcmp(argv[1],"-t") == 0)) {
       if ((strcmp(argv[2], "-file") == 0) || (strcmp(argv[2], "-f") == 0)) {
         printf("--------------------Train mode(-file)--------------------\n");
@@ -57,13 +57,13 @@ int main(int argc, char const *argv[])
         throw runtime_error("Invalid argument!");
       }
     } else if ((strcmp(argv[1], "-extract") == 0) || (strcmp(argv[1], "-e") == 0)) {
-      int keywords_count = 0;     
+      int keywords_count = 0;
       if ((strcmp(argv[2], "-file") == 0) || (strcmp(argv[2], "-f") == 0)) {
         printf("--------------------Extract mode(-file)--------------------\n");
-        
+
         while ((keywords_count < 2) || (keywords_count > 10)) {
           printf("Input number of keywords to extract(max: 10 , min: 2):\n");
-          cin >> keywords_count;  
+          cin >> keywords_count;
         }
 
         printf("Input path of corpus(*.txt):\n");
@@ -71,14 +71,14 @@ int main(int argc, char const *argv[])
         cin >> path;
         ifstream in(path);
         if (!in.is_open())
-          throw runtime_error("Failed to open file! Please check file path..."); 
+          throw runtime_error("Failed to open file! Please check file path...");
         Extract(in, keywords_count);
       } else if ((strcmp(argv[2], "-keyboard") == 0) || (strcmp(argv[2], "-k") == 0)) {
         printf("--------------------Extract mode(-keyboard)--------------------\n");
         printf("Waiting for input:(Type \"_end_\" to end input)\n");
         while ((keywords_count < 2) || (keywords_count > 10)) {
           printf("Input number of keywords to extract(max: 10 , min: 2):\n");
-          cin >> keywords_count;  
+          cin >> keywords_count;
         }
 
         Extract(cin, keywords_count);
