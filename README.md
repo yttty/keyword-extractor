@@ -1,3 +1,5 @@
+> This project now serve as a toy project to test system configurations.
+
 # KeywordExtractor
 Extract keywords form given text, using the method of statistics, previously trained with corpus from University of Oxford Text Archive.
 
