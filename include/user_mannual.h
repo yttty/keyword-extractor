@@ -1,4 +1,4 @@
-#ifndef USER_MANNUAL_H 
+#ifndef USER_MANNUAL_H
 #define USER_MANNUAL_H
 
 #include <string>

@@ -1,13 +1,3 @@
-/*
- * File name: user_mannual.cc
- * Author: Terrill Yang, SYSU
- * Function: print user mannual when nedded
- * Last edit: 2015-5-29
- *
- * Copyright (C) 2015 Yang Tianyi
- * E-mail: yeah-y@qq.com
- */
-
 #include "user_mannual.h"
 
 UserMannual::UserMannual(string file_name) {

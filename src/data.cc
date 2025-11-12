@@ -1,13 +1,3 @@
-/*
- * File name: data.cc
- * Author: Yang Tianyi, SYSU
- * Function: define data class(StopwordsList and DocumentFrequency)
- * Last edit: 2015-5-29
- *
- * Copyright (C) 2015 Yang Tianyi
- * E-mail: yeah-y@qq.com
- */
-
 #include "data.h"
 
 int GetHash(string s) {
@@ -80,7 +70,7 @@ int DocumentFrequency::get_frequency(const string& to_get_) {
     if (strcmp(this->get_data(bin_number).at(i).word.c_str(), to_get_.c_str()) == 0)
       return this->get_data(bin_number).at(i).frequency;
   }
-  return 0; 
+  return 0;
 }
 
 unsigned long DocumentFrequency::get_total_words_count() {

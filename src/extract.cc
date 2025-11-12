@@ -1,13 +1,3 @@
-/*
- * File name: extract.cc
- * Author: Yang Tianyi, SYSU
- * Function: the implemention of function Extract
- * Last edit: 2015-5-29
- *
- * Copyright (C) 2015 Yang Tianyi
- * E-mail: yeah-y@qq.com
- */ 
-
 #include "data.h"
 #include <cmath>
 
@@ -40,7 +30,7 @@ void Extract(istream & in, int keywords_count) {
   cout << "\n--------------------Keywords--------------------\n";
   for (int i = 0; i < keywords_count; ++i) {
     cout << keywords_list.get(i).word << ' ';
-  }  
+  }
   cout << "\n\n";
 
 }/*----Extract----*/

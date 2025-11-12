@@ -1,0 +1,18 @@
+{
+    "name": "Dev Container C++",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": [
+        "--name",
+        "devcontainer-cpp"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack",
+                "shardulm94.trailing-spaces"
+            ]
+        }
+    }
+}

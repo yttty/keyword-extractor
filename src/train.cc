@@ -1,13 +1,3 @@
-/*
- * File name: train.cc
- * Author: Terrill Yang, SYSU
- * Function: the implemention of function Train
- * Last edit: 2015-5-29
- *
- * Copyright (C) 2015 Yang Tianyi
- * E-mail: yeah-y@qq.com
- */ 
-
 #include "data.h"
 
 bool WriteBackSucceed(DocumentFrequency& document_frequency) {
@@ -16,7 +6,7 @@ bool WriteBackSucceed(DocumentFrequency& document_frequency) {
     return false;
   for (int bin_number = 0; bin_number < kHashNumber; ++bin_number) {
     for (int i = 0; i < document_frequency.get_data(bin_number).size(); ++i) {
-      out << document_frequency.get_data(bin_number).at(i).word << '\t' 
+      out << document_frequency.get_data(bin_number).at(i).word << '\t'
           << document_frequency.get_data(bin_number).at(i).frequency << endl;
     }
   }

@@ -1,13 +1,3 @@
-/*
- * File name: main.cc
- * Author: Yang Tianyi, SYSU
- * Function: see README
- * Last edit: 2015-5-29
- *
- * Copyright (C) 2015 Yang Tianyi
- * E-mail: yeah-y@qq.com
- */
-
 #include <string>
 #include <stdexcept>
 #include <fstream>

@@ -7,4 +7,3 @@ include_directories(include)
 file(GLOB SOURCES "src/*.cc")
 
 add_executable(KeywordExtractor ${SOURCES})
-
