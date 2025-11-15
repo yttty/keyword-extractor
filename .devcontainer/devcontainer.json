@@ -1,11 +1,8 @@
 {
-    "name": "Dev Container C++",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
+    "image": "docker.io/yttty/devcontainer-cpp:latest",
     "runArgs": [
         "--name",
-        "devcontainer-cpp"
+        "devcontainer-keyword-extractor"
     ],
     "customizations": {
         "vscode": {
