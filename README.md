@@ -1,5 +1,10 @@
 > This project now serve as a toy project for testing purpose.
 
+# Test Instruction
+- `conan install . --output-folder=build --build=missing --profile=default`
+- `cd build; cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release`
+- `cmake --build .`
+
 # KeywordExtractor
 Extract keywords form given text, using the method of statistics, previously trained with corpus from University of Oxford Text Archive.
 
